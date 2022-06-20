@@ -42,6 +42,15 @@ letter-spacing: 1px;
 text-transform: uppercase;
 text-decoration: none;
 color: #000000;
+transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.sitenav-link:hover{
+  color: #FF7500;
+}
+
+.sitenav-link:active{
+  opacity: 0.6;
 }
 
 .main-link{
@@ -52,7 +61,17 @@ color: #000000;
   color: white;
   background-color: #FF7500;
 text-decoration: none;
+transition: opacity 0.4s ease;
 }
+
+.main-link:hover{
+opacity: 0.8;
+}
+
+.main-link:active{
+  opacity: 0.6;
+}
+
 .hero{
   background-color: #252420;
   color: white;
@@ -154,6 +173,14 @@ align-items: center;
   align-items: center;
 }
 
+.socials a:hover {
+  color: #FF7500;
+}
+
+.socials a{
+  color: #252420;
+}
+
 .site-footer-bottom{
   display: flex;
 }
@@ -170,6 +197,14 @@ align-items: center;
 .site-footer-links a {
   color: #252420;
 text-decoration: none;
+}
+
+.site-footer-links a:hover{
+  color: #FF7500;
+}
+
+.site-footer-links a:focus{
+  opacity: 0.6;
 }
 
 .site-footer-links{
