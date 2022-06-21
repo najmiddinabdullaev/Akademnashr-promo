@@ -33,6 +33,10 @@ body{
   opacity: 0.6;
 }
 
+.main-logo img{
+  display: block;
+}
+
 .site-header-actions{
   display: flex;
   align-items: center;
@@ -42,6 +46,16 @@ body{
   list-style: none;
   display: flex;
   padding: 0;
+  margin: 0;
+  margin: 32px;
+}
+
+.sitenav-item{
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child{
+  margin: 0;
 }
 
 .sitenav-link{
@@ -105,6 +119,8 @@ width: 390px;
   width: 80px;
   height: 3px;
   background-color: #FF7500;
+  margin: 0;
+  margin-bottom: 40px;
   border: none;
 }
 .hero-heading{
@@ -112,7 +128,13 @@ width: 390px;
   "sans-serif";
   font-size: 40px;
   line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
 
+.hero-text{
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .promo-highlight{
@@ -139,13 +161,15 @@ padding-bottom: 210px;
   width: 440px;
   font-size: 72px;
   line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 
 .features-list{
 display: flex;
 list-style: none;
-justify-content: space-between;
 padding: 0;
+margin: 0;
 }
 
 .features-icon-wrapper{
@@ -161,6 +185,11 @@ border-radius: 50%;
 
 .feature{
 width: 340px;
+margin-right: 40px;
+}
+
+.feature:last-child{
+  margin-right: 0;
 }
 
 .features-texth{
@@ -198,6 +227,27 @@ border-radius: 12px;
 width: 440px;
 }
 
+.promo-heading{
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}
+
+.promo-info-wrapper{
+  margin-bottom: 24px;
+}
+
+.promo-text{
+margin-top: 0;
+margin-bottom: 12px;
+}
+
+.promo-text:last-child{
+  margin-bottom: 0;
+}
+
 .footer{
   background-color: #F8F8F8;
   padding-top: 56px;
@@ -214,6 +264,15 @@ align-items: center;
   display: flex;
   align-items: center;
   padding: 0;
+  margin: 0;
+}
+
+.socials li {
+  margin-right: 16px;
+}
+
+.socials li:last-child{
+  margin-right: 0;
 }
 
 .socials a:hover {
@@ -226,6 +285,11 @@ align-items: center;
 
 .socials a{
   color: #252420;
+  display: block;
+}
+
+.socials svg{
+  display: block;
 }
 
 .site-footer-bottom{
@@ -236,6 +300,8 @@ align-items: center;
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
   border: none;
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 
 .footer ul{
@@ -259,4 +325,12 @@ text-decoration: none;
 .site-footer-links{
 width: 224px;
 line-height: 19px;
+list-style: none;
+padding: 0;
+margin: 0;
+margin-right: 68px;
+}
+
+.site-footer-links:last-child{
+  margin-right: 0;
 }
