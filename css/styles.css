@@ -1,18 +1,37 @@
-* {
+:root {
+  --accent-color: #FF7500;
+
+  --text-font:"Roboto", "Arial", "sans-serif";
+  --heading-font:"Roboto Condensed", "Arial", "sans-serif";
+}
+
+html{
   box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
 }
 
 body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", "Arial", "sans-serif";
   font-size: 16px;
   line-height: 1.5;
+  font-family: var(--text-font);
+  color: black;
   letter-spacing: 0.5px;
 }
 
 *:focus{
-  outline: 2px dotted #FF7500;
+  outline: 2px dotted var(--accent-color);
   outline-offset: 3px;
 }
 
@@ -28,7 +47,7 @@ body{
 
 .site-header{
   background-color: white;
-  border-top: 5px solid #FF7500;
+  border-top: 5px solid var(--accent-color);
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -88,7 +107,7 @@ transition: color 0.4s ease, opacity 0.4s ease;
 }
 
 .sitenav-link:hover{
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .sitenav-link:active{
@@ -101,7 +120,7 @@ transition: color 0.4s ease, opacity 0.4s ease;
   line-height: 15px;
   letter-spacing: 0.5px;
   color: white;
-  background-color: #FF7500;
+  background-color: var(--accent-color);
 text-decoration: none;
 transition: opacity 0.4s ease;
 padding-top: 16px;
@@ -140,14 +159,13 @@ width: 390px;
 .orange-line{
   width: 80px;
   height: 3px;
-  background-color: #FF7500;
+  background-color: var(--accent-color);
   margin: 0;
   margin-bottom: 40px;
   border: none;
 }
 .hero-heading{
-  font-family: "Roboto Condensed", "Arial",
-  "sans-serif";
+  font-family: var(--heading-font);
   font-size: 40px;
   line-height: 120%;
   margin-top: 0;
@@ -160,7 +178,7 @@ width: 390px;
 }
 
 .promo-highlight{
-color:#FF7500 ;
+color:var(--accent-color);
 }
 
 .promo-img{
@@ -180,7 +198,7 @@ padding-top: 210px;
 padding-bottom: 210px;
 }
 .features-heading{
-  font-family: "Roboto Condensed", "Roboto", "Arial", "sans-serif";
+  font-family: var(--heading-font);
   width: 440px;
   font-size: 72px;
   line-height: 120%;
@@ -216,7 +234,7 @@ margin-right: 40px;
 }
 
 .features-texth{
-font-family: "Roboto Condensed", "Arial", sans-serif ;
+  font-family: var(--heading-font);
   font-size: 24px;
   line-height: 120%;
   color: #000000;
@@ -269,7 +287,7 @@ width: 440px;
   margin-bottom: 24px;
   font-size: 40px;
   line-height: 48px;
-  font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+  font-family: var(--heading-font);
 }
 
 .promo-info-wrapper{
@@ -313,7 +331,7 @@ align-items: center;
 }
 
 .socials a:hover {
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .socials a:active{
@@ -352,7 +370,7 @@ text-decoration: none;
 }
 
 .site-footer-links a:hover{
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .site-footer-links a:active{
