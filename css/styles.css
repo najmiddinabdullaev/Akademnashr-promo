@@ -5,9 +5,9 @@
 body{
   padding: 0;
   margin: 0;
-  font-family: "Roboto", "Arial", "sans-serif";
   font-size: 16px;
   line-height: 1.5;
+  font-family: "Roboto", "Arial", "sans-serif";
   letter-spacing: 0.5px;
 }
 
@@ -19,7 +19,7 @@ body{
 /* Container */
 .container{
   width: 100%;
-  max-width: 1140px;
+  max-width: 1120px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -27,10 +27,10 @@ body{
 }
 
 .site-header{
-  background-color: white;
-  border-top: 5px solid #FF7500;
   padding-top: 16px;
   padding-bottom: 16px;
+  background-color: white;
+  border-top: 5px solid #FF7500;
 }
 
 .site-header-container{
@@ -102,14 +102,14 @@ transition: color 0.4s ease, opacity 0.4s ease;
   letter-spacing: 0.5px;
   color: white;
   background-color: #FF7500;
-text-decoration: none;
-transition: opacity 0.4s ease;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 24px;
-padding-right: 24px;
-display: inline-block;
-border-radius: 4px;
+  text-decoration: none;
+  transition: opacity 0.4s ease;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: inline-block;
+  border-radius: 4px;
 }
 
 .main-link:hover{
@@ -230,7 +230,7 @@ font-family: "Roboto Condensed", "Arial", sans-serif ;
   line-height: 150%;
 }
 
-feature-info{
+.feature-info{
   margin: 0;
 }
 
